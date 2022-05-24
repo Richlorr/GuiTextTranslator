@@ -9,9 +9,9 @@ pt.get_languages()
 
 with mss() as sct:
     img = sct.shot()
-    string = pt.image_to_string(img)
+    data = pt.image_to_data(img)
 
-print(string)
+print(data)
 
 
 # #     VVVV Continuously capture screen VVVV
